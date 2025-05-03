@@ -63,6 +63,15 @@ export default {
           full: '/photos/DSC00692.jpg',
           thumb: '/photos/DSC00692.jpg',
         },
+
+        {
+          full: '/photos/DSC01167.jpg',
+          thumb: '/photos/DSC01167.jpg',
+        },
+        {
+          full: '/photos/DSC01269.jpg',
+          thumb: '/photos/DSC01269.jpg',
+        },
         // 添加更多照片
       ],
     };
@@ -86,7 +95,7 @@ export default {
 .gallery {
   height: 80vh;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 每行6张图 */
+  grid-template-columns: repeat(5, 1fr); /* 每行6张图 */
   grid-template-rows: repeat(2, 1fr);    /* 共4行 */
   gap: 6px;
   padding: 6px;
@@ -95,7 +104,7 @@ export default {
 }
 
 .gallery img {
-  width: 300px;
+  width: 250px;
 
   overflow: hidden;
   border-radius: 8px;
