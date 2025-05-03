@@ -32,45 +32,45 @@ export default {
     return {
       images: [
         {
-          full: '/photos/DSC00814.jpg',
-          thumb: '/photos/DSC00814.jpg',
+          full: './photos/DSC00814.jpg',
+          thumb: './photos/DSC00814.jpg',
         },
         {
-          full: '/photos/DSC00899.jpg',
-          thumb: '/photos/DSC00899.jpg',
+          full: './photos/DSC00899.jpg',
+          thumb: './photos/DSC00899.jpg',
         },
         {
-          full: '/photos/DSC01039.jpg',
-          thumb: '/photos/DSC01039.jpg',
+          full: './photos/DSC01039.jpg',
+          thumb: './photos/DSC01039.jpg',
         },
         {
-          full: '/photos/DSC01063.jpg',
-          thumb: '/photos/DSC01063.jpg',
+          full: './photos/DSC01063.jpg',
+          thumb: './photos/DSC01063.jpg',
         },
         {
-          full: '/photos/DSC00878.jpg',
-          thumb: '/photos/DSC00878.jpg',
+          full: './photos/DSC00878.jpg',
+          thumb: './photos/DSC00878.jpg',
         },
         {
-          full: '/photos/DSC00417-2.jpg',
-          thumb: '/photos/DSC00417-2.jpg',
+          full: './photos/DSC00417-2.jpg',
+          thumb: './photos/DSC00417-2.jpg',
         },
         {
-          full: '/photos/DSC00419.jpg',
-          thumb: '/photos/DSC00419.jpg',
+          full: './photos/DSC00419.jpg',
+          thumb: './photos/DSC00419.jpg',
         },
         {
-          full: '/photos/DSC00692.jpg',
-          thumb: '/photos/DSC00692.jpg',
+          full: './photos/DSC00692.jpg',
+          thumb: './photos/DSC00692.jpg',
         },
 
         {
-          full: '/photos/DSC01167.jpg',
-          thumb: '/photos/DSC01167.jpg',
+          full: './photos/DSC01167.jpg',
+          thumb: './photos/DSC01167.jpg',
         },
         {
-          full: '/photos/DSC01269.jpg',
-          thumb: '/photos/DSC01269.jpg',
+          full: './photos/DSC01269.jpg',
+          thumb: './photos/DSC01269.jpg',
         },
         // 添加更多照片
       ],
