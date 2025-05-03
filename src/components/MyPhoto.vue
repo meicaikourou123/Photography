@@ -93,20 +93,32 @@ export default {
   padding: 20px;
 }
 .gallery {
-  height: 80vh;
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 每行6张图 */
-  grid-template-rows: repeat(2, 1fr);    /* 共4行 */
+  grid-template-columns: repeat(5, 1fr); /* 默认桌面显示5列 */
   gap: 6px;
   padding: 6px;
   box-sizing: border-box;
-  overflow: hidden;
+}
+
+/* 手机：小屏幕下 2 列 */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 平板：中等屏幕 3~4 列 */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .gallery img {
-  width: 250px;
-
-  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 4 / 3; /* 保持图片比例 */
+  object-fit: cover;
   border-radius: 8px;
   cursor: pointer;
   transition: transform 0.3s;
