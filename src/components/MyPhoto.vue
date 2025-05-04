@@ -72,6 +72,26 @@ export default {
           full: './photos/DSC01269.jpg',
           thumb: './photos/DSC01269.jpg',
         },
+        {
+          full: './photos/DSC00611.jpg',
+          thumb: './photos/DSC00611.jpg',
+        },
+        {
+          full: './photos/DSC00554.jpg',
+          thumb: './photos/DSC00554.jpg',
+        },
+        {
+          full: './photos/DSC00118.jpg',
+          thumb: './photos/DSC00118.jpg',
+        },
+        {
+          full: './photos/DSC011990.jpg',
+          thumb: './photos/DSC01190.jpg',
+        },
+        {
+          full: './photos/DSC_6301-2.jpg',
+          thumb: './photos/DSC_6301-2.jpg',
+        },
         // 添加更多照片
       ],
     };
