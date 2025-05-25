@@ -85,7 +85,7 @@ export default {
           thumb: './photos/DSC00118.jpg',
         },
         {
-          full: './photos/DSC011990.jpg',
+          full: './photos/DSC01190.jpg',
           thumb: './photos/DSC01190.jpg',
         },
         {
